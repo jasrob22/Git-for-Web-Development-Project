@@ -1,1 +1,25 @@
 This will be the questions and link.
+
+questions
+
+1.  1. What is the difference between an inline element and a block element?
+        Inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur.
+
+    2. What happens when an element is positioned absolutely?
+        An absolutely positioned element no longer exists in the normal document layout flow. Instead, it sits on its own layer separate from everything else.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+        #container {
+            display: flex;
+            width: 100%;
+        }
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default.
+        Block elements: <div>, <p>, <h1>.
+        Inline elements: <a>, <img>.
+        Inline-block element: align-content
+
+    5. In your own words, explain the box model. What is the fix for the box model?
+        The CSS basic box model is how the browser rendering engine lays out a document. CSS determines the position and size of these boxes.
+        Every box is composed of 4 parts, defined by their edges: the content edge, padding edge, border edge, and margin edge.
+         A fix for the box model: box-sizing: border-box,
